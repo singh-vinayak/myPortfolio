@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/vinayak-singh5302/myPortfolio/issues"
   },
-  "homepage": "https://github.com/vinayak-singh5302/myPortfolio#readme",
+  "homepage": "https://github.com/vinayak-singh5302/myPortfolio/public/index.html",
   "dependencies": {},
   "devDependencies": {
     "lite-server": "^2.6.1"
