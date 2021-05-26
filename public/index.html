@@ -1,172 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vinayak Singh Portfolio Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <div class="logo">
-            <img src="img/vinayak.png" alt="">
-        </div>
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-            </ul>
-        </nav>
+      <div class="logo">
+        <img src="img/vinayak.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Introduction -->
     <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Hi, I am <strong>Vinayak Singh</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-        <img src="" alt="vector image of vinayak singh" class="intro__img" style="background-color: rgb(0, 255, 255);">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Vinayak Singh</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <img
+        src=""
+        alt="vector image of vinayak singh"
+        class="intro__img"
+        style="background-color: rgb(0, 255, 255)"
+      />
     </section>
-
 
     <!-- My services -->
     <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">What I do</h2>
-        <div class="services">
-            <div class="service">
-                <h3>Web Design + Development</h3>
-                <p>Completed HTML, CSS and concepts of vanilla JavaScript with deep understanding, and now working on
-                    the Frameworks and Server Side Development with an aim to become complete MERN stack Dev before
-                    August 2021</p>
-            </div> <!-- / service -->
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Web Design + Development</h3>
+          <p>
+            Full Stack Developer.<br />I know my way around learning cool new
+            stuff that's great to look at, and at the same time functional at
+            the core. Just contributing to the Open Source in this field
+          </p>
+        </div>
+        <!-- / service -->
 
-            <div class="service">
-                <h3>Cybersecurity &amp; PenTester</h3>
-                <p>Knowledge of basic Cybersecurity and Computer Networking, learning about OWASP top 10 vulnerabilities
-                    and practising pentesting within Ethical means.</p>
-            </div> <!-- / service -->
+        <div class="service">
+          <h3>Cybersecurity &amp; PenTester</h3>
+          <p>
+            In a simple way to say, I've knowledge about the OWASP top 10
+            vulnerabilities. Practising CTFs and learning the A to Z of Security
+            and Awareness over the web and tricks to get inside a system.
+          </p>
+        </div>
+        <!-- / service -->
 
-            <div class="service">
-                <h3>Data Science + ML</h3>
-                <p>Creating Data Visualisations using Python Libraries. creating machine learning algos using MATLAB and
-                    also learning ML in Python with an aim to create projects with the knowledge I'm gaining right now.
-                </p>
-            </div> <!-- / service -->
-        </div> <!-- / services -->
+        <div class="service">
+          <h3>Data Structures & Algorithms</h3>
+          <p>
+            Solving Programming problems over different websites to improve my
+            skills. Also improving my problem solving ability to develop fast
+            and improved solutions to different things.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
 
-        <a href="#work" class="btn">My Work</a>
+      <a href="#work" class="btn">My Work</a>
     </section>
-
 
     <!-- About me -->
     <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about">Designer & developer</p>
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Designer & developer
+      </p>
 
-        <div class="about-me__body">
-            <p>Hi, My name is Vinayak Singh and I am a Web Designer & Developer based out of Kanpur, India. Apart from
-                UI designing, i have an interest in Security over the Web and hence, am learning and educating others on
-                how to keep yourself safe over the Internet.</p>
-            <p>I am currently working on creating a realistic Netflix clone using React JS, and practising
-                environment-based vulnerability assessment on VMs ethically. P.S- I do keep an eye on the advancements and developments across tech fields, especially those concerning games and sports 😁</p>
-        </div>
+      <div class="about-me__body">
+        <p>
+          Hi, My name is Vinayak Singh and I am a Web Designer & Developer based
+          out of Kanpur, India. Apart from UI designing, i have an interest in
+          Security over the Web and hence, am learning and educating others on
+          how to keep yourself safe over the Internet.
+        </p>
+        <p>
+          I am currently working on creating a realistic Netflix clone using
+          React JS, and practising environment-based vulnerability assessment on
+          VMs ethically. P.S- I do keep an eye on the advancements and
+          developments across tech fields, especially those concerning games and
+          sports 😁
+        </p>
+      </div>
 
-        <img src="img/vinayak-02.jpg" alt="Vinayak with a pair of headphones around the neck" class="about-me__img">
+      <img
+        src="img/vinayak-02.jpg"
+        alt="Vinayak with a pair of headphones around the neck"
+        class="about-me__img"
+      />
     </section>
 
     <!-- My Work -->
     <section class="my-work" id="work">
-        <h2 class="section__title section__title--work">My work</h2>
-        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
 
-        <div class="portfolio">
-            <!-- Portfolio item 01 -->
-            <a href="https://vinayak-singh5302.github.io/pac-man/" class="portfolio__item" title="Pac-Man"
-                target="_blank">
-                <img src="img/project-pacman.png" alt="Pac-Man game using JS" class="portfolio__img">
-            </a>
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a
+          href="https://vinayak-singh5302.github.io/pac-man/"
+          class="portfolio__item"
+          title="Pac-Man"
+          target="_blank"
+        >
+          <img
+            src="img/project-pacman.png"
+            alt="Pac-Man game using JS"
+            class="portfolio__img"
+          />
+        </a>
 
-            <!-- Portfolio item 02 -->
-            <a href="https://vinayak-singh5302.github.io/Dice-Game/" class="portfolio__item"
-                title="2v2 Dice Game- See who wins!!" target="_blank">
-                <img src="img/project-dice.png" alt="2v2 Dice game web App" class="portfolio__img">
-            </a>
+        <!-- Portfolio item 02 -->
+        <a
+          href="https://vinayak-singh5302.github.io/Dice-Game/"
+          class="portfolio__item"
+          title="2v2 Dice Game- See who wins!!"
+          target="_blank"
+        >
+          <img
+            src="img/project-dice.png"
+            alt="2v2 Dice game web App"
+            class="portfolio__img"
+          />
+        </a>
 
-            <!-- Portfolio item 03 -->
-            <a href="https://vinayak-singh5302.github.io/Punk-Api-BeerApp/" class="portfolio__item"
-                title="Check different Beer using Beer API" target="_blank">
-                <img src="img/project-beerAppUsingPunkAPI.png" alt="Beer App using Punk API" class="portfolio__img">
-            </a>
+        <!-- Portfolio item 03 -->
+        <a
+          href="https://vinayak-singh5302.github.io/Punk-Api-BeerApp/"
+          class="portfolio__item"
+          title="Check different Beer using Beer API"
+          target="_blank"
+        >
+          <img
+            src="img/project-beerAppUsingPunkAPI.png"
+            alt="Beer App using Punk API"
+            class="portfolio__img"
+          />
+        </a>
 
-            <!-- Portfolio item 04 -->
-            <a href="https://vinayak-singh5302.github.io/Nokia3310-Snake/" class="portfolio__item"
-                title="Nokia 3310 based Snake Game" target="_blank">
-                <img src="img/project-snake.png" alt="Retro snake game" class="portfolio__img">
-            </a>
+        <!-- Portfolio item 04 -->
+        <a
+          href="https://vinayak-singh5302.github.io/Nokia3310-Snake/"
+          class="portfolio__item"
+          title="Nokia 3310 based Snake Game"
+          target="_blank"
+        >
+          <img
+            src="img/project-snake.png"
+            alt="Retro snake game"
+            class="portfolio__img"
+          />
+        </a>
 
-            <!-- Portfolio item 05 -->
-            <a href="https://vinayak-singh5302.github.io/github-users/" class="portfolio__item"
-                title="Search any github users" target="_blank">
-                <img src="img/project-githubusers.png" alt="Github Users" class="portfolio__img">
-            </a>
+        <!-- Portfolio item 05 -->
+        <a
+          href="https://vinayak-singh5302.github.io/github-users/"
+          class="portfolio__item"
+          title="Search any github users"
+          target="_blank"
+        >
+          <img
+            src="img/project-githubusers.png"
+            alt="Github Users"
+            class="portfolio__img"
+          />
+        </a>
 
-            <!-- Portfolio item 06 -->
-            <a href="https://github.com/vinayak-singh5302/react-movie-search" class="portfolio__item"
-                title="Movie Search App using React JS" target="_blank">
-                <img src="img/project-react-movie-search.png" alt="React Movie Search" class="portfolio__img">
-            </a>
-
-        </div>
+        <!-- Portfolio item 06 -->
+        <a
+          href="https://github.com/vinayak-singh5302/react-movie-search"
+          class="portfolio__item"
+          title="Movie Search App using React JS"
+          target="_blank"
+        >
+          <img
+            src="img/project-react-movie-search.png"
+            alt="React Movie Search"
+            class="portfolio__img"
+          />
+        </a>
+      </div>
     </section>
-
 
     <!-- Footer -->
     <footer class="footer">
-        <!-- replace with your own email address -->
-        <a href="mailto:vinayak.btech.ec19@iiitranchi.ac.in" class="footer__link" target="_blank">hello@vinayaksingh</a>
-        <ul class="social-list">
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://codepen.io/vinayaksingh121" target="_blank">
-                    <i class="fab fa-codepen"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://www.instagram.com/vinayak.singh2441/" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://twitter.com/vinayaksingh121" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com/vinayak-singh5302" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
-        </ul>
+      <!-- replace with your own email address -->
+      <a
+        href="mailto:vinayak.btech.ec19@iiitranchi.ac.in"
+        class="footer__link"
+        target="_blank"
+        >hello@vinayaksingh</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://codepen.io/vinayaksingh121"
+            target="_blank"
+          >
+            <i class="fab fa-codepen"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.instagram.com/vinayak.singh2441/"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://twitter.com/vinayaksingh121"
+            target="_blank"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/vinayak-singh5302"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
     </footer>
 
-
     <script src="js/index.js"></script>
-
-</body>
-
+  </body>
 </html>
